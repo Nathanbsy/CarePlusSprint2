@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Care Plus Agenda Viva</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-white sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="index.html">
+        <span class="brand-mark">CP</span>
+        Care Plus Agenda Viva
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="dashboard.html">Painel</a></li>
+          <li class="nav-item"><a class="nav-link" href="consultas.html">Consultas</a></li>
+          <li class="nav-item"><a class="nav-link" href="recompensas.html">Recompensas</a></li>
+          <li class="nav-item"><a class="btn btn-primary ms-lg-2" href="login.html">Entrar</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero-band">
+    <div class="container">
+      <div class="hero-panel">
+        <span class="badge bg-light text-primary mb-3">Challenge Care Plus - Sprint 2</span>
+        <h1>Care Plus Agenda Viva</h1>
+        <p class="mt-4">Uma jornada digital para reduzir o no-show com lembretes inteligentes, reagendamento facil, previsao de risco e recompensas para quem cuida da propria saude.</p>
+        <div class="d-flex flex-wrap gap-2 mt-4">
+          <a class="btn btn-light btn-lg" href="login.html">Comecar jornada</a>
+          <a class="btn btn-outline-light btn-lg" href="dashboard.html">Ver prototipo</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="container">
+      <div class="row g-4 align-items-stretch">
+        <div class="col-md-4">
+          <div class="soft-card h-100 p-4">
+            <p class="small-label">Prevencao</p>
+            <h2 class="h4">Risco de no-show</h2>
+            <p class="text-secondary mb-0">O prototipo cruza confirmacao, deslocamento, clima e horario para sugerir a melhor acao preventiva.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="soft-card h-100 p-4">
+            <p class="small-label">Experiencia</p>
+            <h2 class="h4">Reagendamento fluido</h2>
+            <p class="text-secondary mb-0">O paciente confirma, cancela ou muda o horario sem atrito, reduzindo faltas silenciosas.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="soft-card h-100 p-4">
+            <p class="small-label">Engajamento</p>
+            <h2 class="h4">Pontos e badges</h2>
+            <p class="text-secondary mb-0">Comparecer ou avisar com antecedencia gera pontos, conquistas e beneficios.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mt-5">
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-5">
+          <p class="small-label">Como atende ao desafio</p>
+          <h2 class="section-title">Tecnologia simples, impacto direto</h2>
+          <p class="text-secondary">A solucao usa notificacoes simuladas, calendario visual, gamificacao, previsao de risco e uma comunicacao empatica para transformar o comparecimento em um habito positivo.</p>
+          <a class="btn btn-outline-primary" href="consultas.html">Explorar consultas</a>
+        </div>
+        <div class="col-lg-7">
+          <div class="calendar-block">
+            <div class="calendar-head">
+              <span>Seg</span><span>Ter</span><span>Qua</span><span>Qui</span><span>Sex</span><span>Sab</span><span>Dom</span>
+            </div>
+            <div class="calendar-day">
+              <span></span><span></span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+              <span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span>
+              <span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span class="has-event">19 Consulta</span>
+              <span>20</span><span>21</span><span>22</span><span>23</span><span class="has-event">24 Odonto</span><span>25</span><span>26</span>
+              <span>27</span><span>28</span><span class="has-event">29 Check-up</span><span>30</span><span>31</span><span></span><span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-top bg-white py-4">
+    <div class="container d-flex flex-wrap justify-content-between gap-2">
+      <span>Care Plus Agenda Viva</span>
+      <span class="text-secondary">HTML, CSS, Bootstrap e JavaScript</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
